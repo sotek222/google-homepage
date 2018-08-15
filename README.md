@@ -7,4 +7,4 @@
    * Database creation
    * Database initialization
   <b>Built with</b>
-  - [HTMl], and [CSS]
+  - HTMl and CSS
