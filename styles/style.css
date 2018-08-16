@@ -1,1 +1,124 @@
+body {
+  background-color: white;
+  color: rgb(0,0,0);
+}
 
+div.navbar {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  position: relative;
+  align-items: center;
+}
+
+ul.upper_left_nav {
+  position: relative;
+  display: inline;
+  top: 24px;
+  padding: 0 10px;
+}
+
+ul.upper_right_nav {
+  position: relative;
+  float: right;
+  top: 15px;
+  padding: 0 24px;
+}
+
+ul.upper_right_nav li {
+  color: rgb(0,0,0);
+  display: inline;
+  padding-left: 15px;
+  font-size: 13px;
+}
+
+ul.upper_left_nav li {
+  color: rgb(0,0,0);
+  opacity: 0.75;
+  display: inline;
+  padding-left: 15px;
+  font-size: 13px;
+}
+
+
+ div.navbar .google_apps {
+  width: 25px; height: 25px;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: normal;
+  opacity: 0.55;
+  padding: none;
+}
+
+div.navbar .google_sign_in {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(66,133,244);
+  border: 1px solid rgb(66,133,244);
+  border-radius: 2px;
+  width: auto; height: auto;
+  padding: 0 12px;
+}
+
+
+div.google_logo {
+  position: relative;
+  left: 251px;
+}
+
+.google_logo {
+  position: absolute;
+  top: 38px;
+  left: inherit;
+  vertical-align: middle;
+  width: 272px;
+  height: 92px;
+  padding-top: 109px;
+}
+
+.container {
+  position: absolute;
+  vertical-align: middle;
+  border: 1px solid rgb(234, 234, 234);
+  box-shadow: 1px 1px 4px rgb(0,0,0,0.5);
+  outline: none;
+  font-size: inherit;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  top: 315px;
+  left: 400px;
+  width: 444px;
+  height: 34px;
+  padding: 6px 9px 0;
+}
+
+/* div.search_form a {
+  position: static;
+  display: block;
+  margin-top: -1px;
+  padding: 0 8px;
+  white-space: nowrap;
+  float: right;
+} */
+
+.google_mic {
+  position: absolute;
+  vertical-align: middle;
+  top: 325px;
+  left: 825px;
+  width: 18px;
+  height: 23px;
+}
+
+div.submit_buttons {
+
+}
+
+.button {
+  border:;
+  width: 91px;
+  height: 34px;
+  padding: 16px;
+}
