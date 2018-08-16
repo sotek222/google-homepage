@@ -21,13 +21,13 @@ ul.upper_right_nav {
   position: relative;
   float: right;
   top: 15px;
-  padding: 0 24px;
+  padding: 1px 28px;
 }
 
 ul.upper_right_nav li {
   color: rgb(0,0,0);
   display: inline;
-  padding-left: 15px;
+  padding-left: 14px;
   font-size: 13px;
 }
 
@@ -41,7 +41,7 @@ ul.upper_left_nav li {
 
 
  div.navbar .google_apps {
-  width: 25px; height: 25px;
+  width: 24px; height: 24px;
   white-space: nowrap;
   vertical-align: middle;
   line-height: normal;
@@ -94,31 +94,31 @@ div.google_logo {
   padding: 6px 9px 0;
 }
 
-/* div.search_form a {
-  position: static;
-  display: block;
-  margin-top: -1px;
-  padding: 0 8px;
-  white-space: nowrap;
-  float: right;
-} */
-
 .google_mic {
   position: absolute;
   vertical-align: middle;
   top: 325px;
   left: 825px;
-  width: 18px;
-  height: 23px;
+  width: 15px;
+  height: 20px;
 }
 
 div.submit_buttons {
-
+  position: absolute;
+  top: 400px;
+  left: 500px;
+  vertical-align: middle;
 }
 
-.button {
-  border:;
-  width: 91px;
-  height: 34px;
-  padding: 16px;
+ .button {
+   display: inline-block;
+   font-family: arial, sans-serif;
+   font-size: 13px;
+   font-weight: bold;
+   height: 36px;
+   min-width: 54px;
+   background-color: rgb(244,244,244);
+   color: rgb(117,117,117);
+   border: 1px solid rgb(244,244,244);
+   border-radius: 2px;
 }
