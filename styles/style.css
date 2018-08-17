@@ -31,6 +31,7 @@ ul.upper_right_nav li {
   font-size: 13px;
 }
 
+
 ul.upper_left_nav li {
   color: rgb(0,0,0);
   opacity: 0.75;
@@ -39,6 +40,10 @@ ul.upper_left_nav li {
   font-size: 13px;
 }
 
+ li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
  div.navbar .google_apps {
   width: 24px; height: 24px;
@@ -47,6 +52,15 @@ ul.upper_left_nav li {
   line-height: normal;
   opacity: 0.55;
   padding: none;
+}
+
+#google_apps_fix:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+div.navbar .google_apps:hover {
+  opacity: 1;
 }
 
 div.navbar .google_sign_in {
@@ -60,8 +74,17 @@ div.navbar .google_sign_in {
   border-radius: 2px;
   width: auto; height: auto;
   padding: 0 12px;
+  outline: none;
 }
 
+div.navbar .google_sign_in:hover {
+  box-shadow: 0 1px 0 rgb(0,0,0,.15);
+}
+
+div.navbar .google_sign_in:active {
+box-shadow: inset 0 2px 0 rgba(0,0,0,.15);
+background: -webkit-linear-gradient(top,#3c7ae4,#3f76d3);
+}
 
 div.google_logo {
   position: relative;
@@ -83,16 +106,20 @@ div.google_logo {
   vertical-align: middle;
   border: 1px solid rgb(234, 234, 234);
   border-style: none;
-  box-shadow: 1px 1px 4px rgb(0,0,0,0.3);
+  box-shadow:0px 2px 4px rgb(0,0,0,0.3);
   outline: none;
   font-size: inherit;
   font-family: arial, sans-serif;
   font-size: 16px;
-  top: 315px;
+  top: 316px;
   left: 400px;
   width: 460px;
   height: 38px;
   padding: 6px 9px 0;
+}
+
+div.search_form .container:hover {
+  border-color: rgb(160,160,160) rgb(185, 185, 185) rgb(185,185,185) rgb(185,185,185);
 }
 
 .google_mic {
@@ -127,14 +154,44 @@ div.submit_buttons {
    border-radius: 2px;
 }
 
+#im_feeling_lucky:hover {
+  box-shadow: 0 1px 1px rgb(0,0,0,0.1);
+  color: rgb(34,34,34);
+  border: 1px solid rgb(198,198,198);
+}
+
 #search_button {
   outline: none;
 }
 
+#search_button:hover{
+  box-shadow: 0 1px 1px rgb(0,0,0,0.1);
+  color: rgb(34,34,34);
+  border: 1px solid rgb(198,198,198);
+}
+
 div.bottom_nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: rgb(102,102,102);
+  background: rgb(242,242,242);
+  border-top: 1px solid rgb(228,228,228);
+}
+
+ul.lower_left_nav li {
   position: relative;
-  display: inline-block;
-  top: 385px;
-  border: 1px solid lightgray;
-  background-color: lightgray;
+  display: inline;
+  font-size: 17.8px;
+  top: 10px;
+  padding-left: 27px;
+}
+
+ul.lower_right_nav li {
+  position: relative;
+  display: inline;
+  font-size: 17.8px;
+  bottom: 10px;
+  left: 1010px;
+  padding-right: 27px;
 }
